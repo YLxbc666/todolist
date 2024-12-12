@@ -1,0 +1,22 @@
+{
+  "modulePathMap": {
+    "entry": "E:\\code\\study\\huawei\\entry"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "E:\\code\\study\\huawei",
+  "nodeModulesPath": "E:\\code\\study\\huawei\\entry\\.preview\\default\\intermediates\\loader_out\\default\\node_modules",
+  "byteCodeHarInfo": {},
+  "declarationEntry": [],
+  "moduleName": "entry",
+  "hspNameOhmMap": {},
+  "harNameOhmMap": {},
+  "packageManagerType": "ohpm",
+  "compileEntry": [],
+  "otherCompileFiles": [],
+  "dynamicImportLibInfo": {},
+  "routerMap": [],
+  "hspResourcesMap": {},
+  "anBuildOutPut": "E:\\code\\study\\huawei\\entry\\.preview\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
+  "anBuildMode": "type",
+  "buildConfigPath": ".preview\\config\\buildConfig.json"
+}
