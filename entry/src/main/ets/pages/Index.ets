@@ -1,5 +1,6 @@
 import { PassageList } from '../components/passageList'
 import { ToDoList } from './todoList'
+import { TodayToDo } from './todayTodo'
 
 AppStorage.setOrCreate('username', '');
 
@@ -12,17 +13,17 @@ struct Index {
       TabContent() {
         ToDoList()
       }
-      .tabBar('代办')
+      .tabBar('ToDo')
+
+      TabContent() {
+        TodayToDo()
+      }
+      .tabBar("Toady")
 
       TabContent() {
 
       }
-      .tabBar("今日")
-
-      TabContent() {
-
-      }
-      .tabBar("我的")
+      .tabBar("Me")
     }
   }
 }
