@@ -15,3 +15,13 @@ export class ColorList {
     this.color = color
   }
 }
+
+export class DateDict {
+  public date: string;
+  public week: string;
+
+  constructor(date: string, week: string) {
+    this.date = date
+    this.week = week
+  }
+}

@@ -24,9 +24,17 @@ export class TodayToDo extends ViewPU {
     }
     initialRender() {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create("hi");
         }, Text);
         Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create("ss");
+        }, Text);
+        Text.pop();
+        Column.pop();
     }
     rerender() {
         this.updateDirtyElements();
@@ -35,4 +43,4 @@ export class TodayToDo extends ViewPU {
         return "TodayToDo";
     }
 }
-registerNamedRoute(() => new TodayToDo(undefined, {}), "", { bundleName: "com.example.note_me", moduleName: "entry", pagePath: "pages/todayTodo", pageFullPath: "entry/src/main/ets/pages/todayTodo", integratedHsp: "false", moduleType: "followWithHap" });
+registerNamedRoute(() => new TodayToDo(undefined, {}), "", { bundleName: "com.example.note_me", moduleName: "entry", pagePath: "pages/todayTodo", pageFullPath: "entry/src/main/ets/pages/todayTodo", integratedHsp: "false" });

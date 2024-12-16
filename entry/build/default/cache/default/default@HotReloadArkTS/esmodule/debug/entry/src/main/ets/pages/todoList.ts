@@ -394,4 +394,4 @@ export class ToDoList extends ViewPU {
         return "ToDoList";
     }
 }
-registerNamedRoute(() => new ToDoList(undefined, {}), "", { bundleName: "com.example.note_me", moduleName: "entry", pagePath: "pages/todoList", pageFullPath: "entry/src/main/ets/pages/todoList", integratedHsp: "false", moduleType: "followWithHap" });
+registerNamedRoute(() => new ToDoList(undefined, {}), "", { bundleName: "com.example.note_me", moduleName: "entry", pagePath: "pages/todoList", pageFullPath: "entry/src/main/ets/pages/todoList", integratedHsp: "false" });
